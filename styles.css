@@ -1,0 +1,125 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and background styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #28a745;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://assets.bizclikmedia.net/1800/13a236f721a57bc40ae937d1d3f02dd5:5f33d809c3dd8df90cb8a925d2ac6506/huawei-pic.jpg') no-repeat center center/cover;
+    text-align: center;
+    color: white;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #218838;
+}
+
+/* About Us Section */
+#about {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Services Section */
+#services {
+    padding: 40px 20px;
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: space-around;
+}
+
+.service {
+    width: 30%;
+    text-align: center;
+}
+
+.service h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
